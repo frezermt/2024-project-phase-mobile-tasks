@@ -1,0 +1,19 @@
+name: user_list_app
+description: A Flutter app to fetch and store users.
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.5
+  shared_preferences: ^2.2.2
+  flutter_bloc: ^8.1.3  # Optional for state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
